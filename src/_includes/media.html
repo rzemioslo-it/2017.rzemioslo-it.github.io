@@ -1,0 +1,19 @@
+<!-- About Section -->
+<section id="media" class="media">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="row media-text">
+                <div class="col-md-12">
+                    {% for media in site.mediaLinks %}
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading"><a href="{{ media.link }}" class="list-group-item"> {{media.text}}</a></h4>
+                          </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->

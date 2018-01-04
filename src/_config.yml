@@ -43,6 +43,8 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Prelegenci"}
  - {permalink: "/team/", text: "Zespół"}
  - {permalink: "/logistics/", text: "Logistyka"}
+ - {permalink: "/media/", text: "Media" }
+
 navigationButtons:
  - {permalink: "/#tickets", text: "Kup bilet"}
 bottomNavigationLinks:
@@ -118,6 +120,19 @@ subscribeImage: "subscribe.jpg"
 subscribeTitle: "Rejestracja rozpoczęta!"
 subscribeButtons:
   - {permalink: "/#tickets", text: "Kup bilet"}
+
+# Media Block
+mediaLinks:
+  - {link: "https://kreatorzy.eu/konferencje/it/konferencja-rzemioslo-it-2017", text: "Kreatorzy.eu - Konferencja Rzemiosło IT 2017"}
+  - {link: "https://programistamag.pl/pierwsza-konferencja-rzemioslo-it-27-maja-2017-roku-w-rzeszowie/", text: "Programista - PIERWSZA KONFERENCJA RZEMIOSŁO.IT"}
+  - {link: "http://gospodarkapodkarpacka.pl/news/view/20727/konferencja-programistyczna-rzemioslo-it", text: "Gospodarka Podkarpacka - 
+Konferencja programistyczna RZEmiosło.IT"}
+  - {link: "http://www.nowiny24.pl/wiadomosci/rzeszow/a/rzemiosloit-juz-w-sobote-program-wejsciowki,12103956/", text: "nowiny24.pl - Rzemiosło.IT już w sobotę"}
+  - {link: "http://www.biznesistyl.pl/biznes/nowe-technologie/5623_.html", text: "Biznes i Styl - Programowanie jako rzemiosło. Znani eksperci na konferencji RZEmiosło.IT"}
+  - {link: "https://www.ppg24.pl/w-nadchodzaca-sobote-rzeszow-po-raz-kolejny-udowodni-ze-jest-stolica-innowacji-,1856.html", text: "Podkarpacki Portal Gospodarczy - W nadchodzącą sobotę Rzeszów po raz kolejny udowodni, że jest „stolicą innowacji”. "}
+  - {link: "http://programistka.com/rzemioslo-it-moja-relacja/", text: "Programistka – Rzemiosło.it – moja relacja"}
+  - {link: "http://www.resinet.pl/aktualnosci/rzeszow/ekspercka-wiedza-prelegentow-konferencji-programistycznej-rzemioslo-it-jest-bezplatnie-udostepniona.html", text: "RESinet - Ekspercka wiedza prelegentów konferencji programistycznej RZEmiosło.IT jest bezpłatnie udostępniona"}
+  - {link: "http://strejczek.com/rzemioslo-it-garsc-wrazen/", text: "Paweł Strejczek - Rzemiosło.IT – garść wrażeń"}
 
 # Tickets Block
 ticketsTitle: "Bilety"
